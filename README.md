@@ -33,3 +33,10 @@ CodeT5+_VPT_bicriteria_subset_selection_results_lang.txt.
 Please use the [codeT5P_diverse_decoding.ipynb](codeT5P_diverse_decoding.ipynb) to generate results for all other decoding methods.\
 Results will be stored in [diverse_decoding_results](diverse_decoding_results) directory.
 
+### Experiment Results and Weights
+Our model weights and inference results can be accessed from https://drive.google.com/file/d/1nyZds1A_cyS5bWaBy4rd7DKr9Ej2vZl2/view?usp=sharing
+For the weights included in [CodeT5_VPT_Weight](CodeT5_VPT_Weight), please first load the backbone model CodeT5+ from huggingface, then load our provided weights.
+The textual predictions for conducting all the experiments in out paper in [RQ_Textual_Predictions](RQ_Textual_Predictions).
+The files are separated based on Research Questions (RQ) and datasets, with name indicating the infernce strategy used.
+For all Sampling and VPT results, please use Bi-criteria subset selection from the 100 results provided to obtain the number of summaries you need.
+
